@@ -31,17 +31,17 @@ This backend handles:
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/snapcart-backend.git
 cd snapcart-backend
 
-### 2. Install Dependencies
+### Install Dependencies
 
 - **npm install**
  
-### 3. Create .env file
+### Create .env file
 
 - **PORT=3001**
 - **mongodb_connectionname=your_mongodb_connection_string**
@@ -50,6 +50,6 @@ cd snapcart-backend
 - **email_passname=your_email_password**
 - **email_from="SnapCart <your_email@example.com>"**
 
-### 4. Start The Server
+### Start The Server
 
 - **node server.js**
