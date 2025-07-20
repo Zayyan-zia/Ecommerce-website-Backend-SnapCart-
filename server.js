@@ -254,5 +254,5 @@ app.post('/orderconfirm',upload.none(),(req,res,next)=>{
 });
 const port=process.env.PORT || 3001
 app.listen(port,()=>{
-    console.log('server star at port 3001');
+    console.log(`server star at port ${port}`);
 })
